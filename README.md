@@ -23,3 +23,9 @@ This repository contains an industry-grade Hybrid Automation Framework designed 
 * Designed a thread-safe `DriverFactory` using Java's `ThreadLocal` for parallel execution compatibility.
 * Created a `BaseTest` class to handle TestNG `@BeforeMethod` and `@AfterMethod` lifecycle hooks.
 * Successfully ran a pilot test case from the requirements document utilizing Selenium Manager.
+
+## Day 3: Page Object Model (POM) Implementation
+* Implemented the Page Object Model design pattern to separate locators and actions from test scripts.
+* Utilized **Encapsulation** by keeping `By` locators private and exposing public interaction methods.
+* Implemented **Page Chaining** to handle seamless navigation between `HomePage`, `LoginPage`, and `AccountPage`.
+* Refactored `LoginTest` to ensure clean, readable, and maintainable test logic.
