@@ -1,6 +1,5 @@
 # Compiled class files
 target/
-src/
 *.class
 
 # IDE specific files
