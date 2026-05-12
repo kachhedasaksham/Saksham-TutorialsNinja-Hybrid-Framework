@@ -1,0 +1,26 @@
+# Compiled class files
+target/
+src/
+*.class
+
+# IDE specific files
+.idea/
+*.iml
+.settings/
+.classpath
+.project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Log files (We will generate these later with Log4j2)
+*.log
+/logs/
+
+# Extent Reports output
+/reports/
+/test-output/
+
+# User-specific properties (keeps your local passwords safe)
+local.properties
