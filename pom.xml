@@ -16,6 +16,8 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<selenium.version>4.43.0</selenium.version>
 		<testng.version>7.12.0</testng.version>
+		<poi.version>5.5.1</poi.version>
+		<poi-ooxml.version>5.5.1</poi-ooxml.version>
 	</properties>
 
 	<dependencies>
@@ -31,6 +33,19 @@
 			<version>${testng.version}</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>${poi.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>${poi-ooxml.version}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
